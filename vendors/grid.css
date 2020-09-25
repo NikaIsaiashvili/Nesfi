@@ -1,0 +1,217 @@
+/* ------------------------------- */
+
+
+/* UNIVERSAL */
+
+
+/* ------------------------------- */
+
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif, Arial;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* ------------------------------- */
+
+
+/* HEADINGS */
+
+
+/* TYPOGRAPHY */
+
+
+/* POSITIONS*/
+
+
+/* ------------------------------- */
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 145%;
+}
+
+.light-text {
+    font-weight: 200;
+}
+
+.normal-text {
+    font-weight: 300;
+}
+
+.heavy-text {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}
+
+
+/* ------------------------------- */
+
+
+/* GRID SYSTEM */
+
+
+/* ------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 90%;
+    margin: 1% auto;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    padding: 1%;
+    margin: 0 1%;
+}
+
+
+/* 2 COLUMNS */
+
+.col-1of2,
+.col-2of2 {
+    width: 48%;
+}
+
+
+/* 3 COLUMNS */
+
+.col-1of3,
+.col-2of3,
+.col-3of3 {
+    width: 31.33%;
+}
+
+
+/* 4 COLUMNS */
+
+.col-1of4,
+.col-2of4,
+.col-3of4,
+.col-4of4 {
+    width: 23%;
+}
+
+
+/* 5 COLUMNS */
+
+.col-1of5,
+.col-2of5,
+.col-3of5,
+.col-4of5,
+.col-5of5 {
+    width: 18%;
+}
+
+
+/* 6 COLUMNS */
+
+.col-1of6,
+.col-2of6,
+.col-3of6,
+.col-4of6,
+.col-5of6,
+.col-6of6 {
+    width: 14.66%;
+}
+
+
+/* 7 COLUMNS */
+
+.col-1of7,
+.col-2of7,
+.col-3of7,
+.col-4of7,
+.col-5of7,
+.col-6of7,
+.col-7of7 {
+    width: 12.28%;
+}
+
+
+/* 8 COLUMNS */
+
+.col-1of8,
+.col-2of8,
+.col-3of8,
+.col-4of8,
+.col-5of8,
+.col-6of8,
+.col-7of8,
+.col-8of8 {
+    width: 10.50%;
+}
+
+.col {
+    float: left;
+}
